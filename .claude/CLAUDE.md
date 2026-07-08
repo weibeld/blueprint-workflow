@@ -20,3 +20,7 @@ The repository contains two main files:
 - Intended to be included in the context window of a coding agent (currently only Claude Code is supported)
 - Contains instructions for an agent to maintain the workflow documents in the target project's `blueprint/` directory
 - Should be kept concise since this file is included in the context of every project that uses the workflow
+
+## Open questions
+
+Open questions about the workflow are tracked in GitHub Issues. Check them with `gh issue list` before proposing decisions on undecided matters.
