@@ -1,21 +1,29 @@
-# CLAUDE.md — Blueprint Instructions
+# CLAUDE.md — Blueprint Workflow
 
-## Project overview
+## Repository overview
 
-This repository contains Claude Code instructions (`instructions.md`) for maintaining the blueprint documents in software projects that use the Blueprint Workflow.
+This repository defines the Blueprint Workflow - an agentic software development workflow for greenfield projects.
 
-The blueprint documents are located in the `blueprint/` directory of a software project.
+The repository contains two main files:
 
-The Blueprint Workflow says to first create a blueprint (the files in the `blueprint/` directory) that is complete and coherent relative to the current state of knowledge, and after that start deriving the implementation from this blueprint. As the implementation reveals new insights that require changes, first the blueprint is updated, and then the implementation is derived again from this updated blueprint. This cycle may repeat multiple times.
+- `workflow.md`: the human-readable description of the workflow
+- `instructions.md`: the agent instructions intended to be imported into the agent context of a target software project
 
-## Editing guidelines
+### `workflow.md`
 
-- The target audience of the `instructions.md` file is an LLM agent (in this case Claude Code)
-- The `instructions.md` file should be kept concise because it is loaded into context in the target projects
+- Intended for human readers
+- Serves as a source of truth for the conceptualisation and development of the workflow
+- May later inform a published story about the workflow in [Nightingale](https://github.com/weibeld/nightingale)
+
+### `instructions.md`
+
+- Intended to be included in the context window of a coding agent (currently only Claude Code is supported)
+- Contains instructions for an agent to maintain the workflow documents in the target project's `blueprint/` directory
+- Should be kept concise since this file is included in the context of every project that uses the workflow
 
 ## Open questions
 
-1. Could this be implemented with Claude Code rules (https://code.claude.com/docs/en/memory#organize-rules-with-claude/rules/)?
-2. Could this be implemented with Claude Code skills (https://code.claude.com/docs/en/skills)?
-3. Currently, this repo works only for Claude Code. Are there ways to make it generic so that it also works with other agents?
-4. Do we also need instructions in this repository for guiding the implementation stage of the workflow?
+1. Could the instructions be implemented with Claude Code rules (https://code.claude.com/docs/en/memory#organize-rules-with-claude/rules/)?
+2. Could the instructions be implemented with Claude Code skills (https://code.claude.com/docs/en/skills)?
+3. Currently, the instructions work only for Claude Code. Are there ways to make it generic so that it also works with other agents?
+4. Do we also need instructions in this repository for guiding the implementation phase of the workflow?

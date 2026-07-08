@@ -1,11 +1,13 @@
-# Blueprint Instructions
+# Blueprint Workflow — Agent Instructions
 
 These instructions define the structure and document types of the `blueprint/` directory of a project repository. The blueprint directory contains all documents that define the project and on which the implementation is based.
 
+<!--
 TODO:
   - Provide minimal template for concept doc? this is not a hard template but just to remind users how we structure our concept docs usually
   - Same for specs? do the usually follow a certain pattern? 
   - If we provide templates to be seen by the user, we would probably also include html comments for notes (see the curretn /Users/dw/repos/weibeld/giraffe/docs/concept.md), so we should maybe mention this here too. i think also the ADR template includes html comments
+-->
 
 ## Directory layout
 
@@ -30,7 +32,9 @@ The following sections describe the individual document types.
 
 ADR template:
 
+<!--
 TODO: decide on the final template form
+-->
 
 ## Research notes
 
@@ -57,7 +61,9 @@ TODO: decide on the final template form
 
 Open question item template:
 
+<!--
 TODO: define (should it be in section format or each question just a list item in ia flat list (with a sub-list per question)?)
+-->
 
 ## Specs
 
