@@ -32,6 +32,7 @@ The following sections describe the individual document types.
 
 ADR template:
 
+fixed structure (template to be defined)
 <!--
 TODO: decide on the final template form
 -->
@@ -61,6 +62,7 @@ TODO: decide on the final template form
 
 Open question item template:
 
+fixed structure (template to be defined)
 <!--
 TODO: define (should it be in section format or each question just a list item in ia flat list (with a sub-list per question)?)
 -->

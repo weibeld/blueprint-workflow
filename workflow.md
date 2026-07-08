@@ -44,10 +44,6 @@ Caveats:
 - Curation creep: exit criteria for phase 1 ("the blueprint is ready when an agent could start component X without asking me anything") (TODO: to be refined)
 - Prototyping: make prototyping an explicit phase-1 activity: prototypes feed research notes and ADRs and are then deleted (TODO: this might include some creep too, if you start polishing a prototype)
 
-Open Questions:
-
-- Name: candidates are "Blueprint-Driven Development" or just something like "Blueprint Workflow" or "Blueprint Agentic Software Development Workflow"
-
 References:
 
 - https://mattfarrugia.com/posts/experiments-in-blueprint-driven-development: primary resource where the term "blueprint-driven development" is used with a similar meaning (besides that, there seem to be no major usages of this term)
