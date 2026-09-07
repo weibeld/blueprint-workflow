@@ -1,5 +1,11 @@
 # CLAUDE.md — Blueprint Workflow
 
+## Background
+
+The whole point to start with the blueprint-workflow repo topic was to apply this workflow (especially the blueprint/ directory docs) to the Owl project, in order to collect ideas and notes in the form of research docs and shaping the concept doc.
+
+EDIT 2026-09-07: this might be partly obsolete with the new idea of conducting research as actual Owl notes in a general way, and not as part of the blueprint for a specific project (to avoid that projects are started but never completed). The initial idea for this thought was to have a separate general research repo similar to Owl but then there was a discussion whether this research repo and Owl should actually be combined in the same repo (i.e. research is just a part of what's in Owl).
+
 ## Repository overview
 
 This repository defines the Blueprint Workflow - an agentic software development workflow for greenfield projects.
