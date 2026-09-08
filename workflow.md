@@ -8,6 +8,12 @@ Note: this is very raw work in progress for what will eventually become the work
 
 ## Description
 
+<!--
+  TODO 2026-09-08: is the two-stage process (first design, then implement) still right, or do we actually tend more towards a prototype-driven approach? In particular, if research is being done outside the project repo on an ongoing basis and occasionally aspects of this research are "spun off" and implemented in concrete projects, might these implementations become or evolve into prototype of the actual first-level projects? And if so, would we then continue the implementation of these projects based on these prototypes (as it is currently the case, for example, for Owl)? Should this somehow be represented in the workflow, e.g. prototypes are exploration which may inform the blueprint, and the blueprint then still drives the real implementation (i.e. separate code bases for prototypes and final implementation)? Or that the prototype actually become the real implementatino and the blueprint then kind of needs to catch up with the current state of prototype and then is maybe mainly used to drive the further development of th project when it's clear that what's being built now is the real thing?
+  One option is to have prototypes in a prototype/ (or prototypes/) directory at the root level (adjacent to blueprint/). The workflow would then recognise this a prototypes and not the real implementation and thus wouldn't enforce the source-of-truth relation between the blueprint and the implementation. The real implementation is expected to live in the root directory of the repo. A prototype can be "committed" to become the real implementation by moving it from the prototype/ directory to the root directory, and from that moment on, the source-of-truth relation between the blueprint and the implementation must hold (i.e. blueprint must describe implementation). Alternatively, the real implementation can also be started from scratch in the root directory (maybe informed by the prototype). Prototypes (and the entire prototype/ directory) may be deleted when the prototypes become obsolete. Important for the workflow to note is that everything in the repo besides blueprint/ and prototype/ is the actual implementation and needs to be analysed as such.
+-->
+
+
 Workflow:
 
 1. Create initial blueprint (50%)
