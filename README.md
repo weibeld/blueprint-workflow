@@ -4,6 +4,8 @@ An agentic software development workflow for greenfield projects.
 
 ## 🧠 Workflow
 
+> TODO: remove (move to Owl) and include all relevant user info in README
+
 The workflow is described in [`workflow.md`](workflow.md).
 
 ## 🤖 Agent Instructions
@@ -14,7 +16,15 @@ The agent instructions are defined in [`instructions.md`](instructions.md) and a
 
 > **Note:** currently Claude Code is the only supported target agent.
 
+> TODO: support other agents:
+>   - Generic installation supporting all agents?
+>   - Dedicated installation approach for set of supported agents?
+
 ### Usage (Claude Code)
+
+> TODO: replace with more streamlined installation option, for example:
+>   - Claude Code rules (https://code.claude.com/docs/en/memory#organize-rules-with-claude/rules/)
+>   - Claude Code skills (https://code.claude.com/docs/en/skills)
 
 1. Clone the repository:
     ```bash

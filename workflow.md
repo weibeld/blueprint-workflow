@@ -1,5 +1,7 @@
 # Blueprint Workflow (WIP)
 
+<!-- TODO: move to Owl and develop further in Owl -->
+
 <!--
 Note: this is very raw work in progress for what will eventually become the workflow description.
 -->
